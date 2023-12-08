@@ -3,7 +3,7 @@ import classes from "./card.module.css"
 const Card4= ({heading,title1,title2,data}) => {
   return (
     <div className={classes.container}>
-         <div className={classes.card}>
+         <div className={classes.card4} >
         <div className={classes.card1Heading} style={{paddingTop:10}}>{heading}</div>
         <div className={classes.title1}>{title1}</div>
         {/* <div className={classes.title1}>{title2}</div> */}

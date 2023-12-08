@@ -46,7 +46,15 @@
     flex-direction:column;
     width: 100%;
    /* justify-content: space-between; */
-   
+   /* background-image: radial-gradient(circle 200px, blue, red) */
+
+}
+.card4{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+   /* justify-content: space-between; */
+   background-image: radial-gradient(circle 200px, #1e4845, #1b252e)
 
 }
 .card3{
