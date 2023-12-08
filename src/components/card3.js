@@ -8,12 +8,12 @@ const Card3 = ({heading,title1,title2,data}) => {
         <div className={classes.imageBox}>
         <div>
             <h3 style={{color:'white'}}>Lorem Ipsum</h3>
-        <div className={classes.data} style={{width:120,marginTop:-10,float:'left'}}>{data}</div>
+        <div className={classes.data} style={{marginTop:-10,float:'left'}}>{data}</div>
         {/* <div className={classes.data} style={{textAlign:'center',marginTop:-20}}>lorenm Ipsom</div> */}
            </div>
            <div>
            <h3 style={{color:'white'}}>Lorem Ipsum</h3>
-        <div className={classes.data} style={{width:120,marginTop:-10,float:'left'}}>{data}</div>
+        <div className={classes.data} style={{marginTop:-10,float:'left'}}>{data}</div>
            </div>
         </div>
         

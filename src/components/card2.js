@@ -3,10 +3,10 @@ import classes from "./card.module.css"
 import image from "../assets/mountain.jpg"
 const Card2 = ({heading,title1,title2,data}) => {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} >
          <div className={classes.card}>
         <div className={classes.imageBox}>
-        <div>
+        <div style={{paddingRight:5}}>
             <img
             src={image}
             className={classes.image}

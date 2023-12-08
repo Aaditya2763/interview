@@ -3,7 +3,7 @@ import classes from "./dashboard.module.css"
 import image from "../assets/mountain.jpg"
 const DashboardImage = () => {
   return (
-    <Fragment className={classes.container} >
+    <Fragment  >
          <img src={image} alt="dashboard image" className={classes.containerImage} />
          <div className={classes.box}>
             <span>Lorem</span>
